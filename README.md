@@ -1,0 +1,2 @@
+# firstjs
+JavaScript code repo
