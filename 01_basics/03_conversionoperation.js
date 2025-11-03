@@ -1,4 +1,4 @@
-console.log("")
+console.log("Conversion")
 
 let score = "67"
 let value = 60
@@ -94,3 +94,58 @@ let someNumber = 9598
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber); 
+
+
+
+
+
+
+
+
+
+// ----------Operations----------
+
+
+console.log("Operations")
+
+
+let = 9
+let negValue = -value
+console.log(negValue);
+
+
+console.log(9+9);
+console.log(9-9);
+console.log(9*9);
+console.log(9/9);
+console.log(9**3);
+console.log(9%5);
+
+
+let strA = "wassup"
+let strB =  " aminur"
+
+let strN = strA + strB
+console.log(strN);
+
+
+
+console.log(4 + "6");
+console.log("4" + 6);
+console.log(4 + "6" + 9);
+console.log(4 + 6 + "9");
+
+
+
+console.log(+true);
+console.log(+"");
+
+
+let num1, num2, num3
+num1 = num2 = num3 = undefined
+console.log(num1, num2, num3);
+
+
+let gameCounter = 230
+gameCounter++;
+console.log(gameCounter);
