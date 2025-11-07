@@ -32,3 +32,42 @@ let myObj = {
  console.log(typeof bigNumber);
  console.log(typeof outsideTemp);
 console.log(typeof myFunction);   //ObjectFunction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++
+
+// 1. Stack Memory(Primitive),    2. Heap Memory (Reference)
+
+let myFacebookname = "aminurdotcom"
+let anotherName = myFacebookname
+anotherName = "aminthenics"
+
+console.log(myFacebookname);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    bkash: "user@bkash"
+}
+
+let userTwo = userOne
+
+userTwo.email = "consumer@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
